@@ -82,7 +82,7 @@ afterEvaluate {
                 from(components.getByName("release"))
                 groupId = "com.caglaakgul.circularprogressbar"
                 artifactId = "circularprogressbar"
-                version = "1.0.2"
+                version = "1.0.3"
             }
         }
     }
