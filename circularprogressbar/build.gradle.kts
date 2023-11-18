@@ -67,8 +67,8 @@ dependencies {
     val composeBom = platform("androidx.compose:compose-bom:2023.10.01")
     implementation(composeBom)
 
-    debugImplementation("androidx.compose.ui:ui-tooling")
-    implementation("androidx.compose.ui:ui-tooling-preview")
+    debugImplementation("androidx.compose.ui:ui-tooling:1.5.4")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.5.4")
 
     constraints {
         api("androidx.compose:compose-bom:1.5.4")
